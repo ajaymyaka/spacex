@@ -1,0 +1,103 @@
+
+
+body{
+    background-color:rgb(228, 228, 228);
+    padding: 0%;
+    margin: 0%;
+}
+
+b{
+    padding: 0%;
+    margin: 0%;
+    font-size: 23px;
+}
+
+.container{
+    width: 100%;
+    overflow: hidden;
+
+    margin-right: 60px;
+    padding: 10px 10px 10px 10px;
+}
+
+.container ul {
+               padding: 0px;
+               margin: 0px;
+}
+.container ul li{
+    list-style:none;
+    float:left;
+    width: 17%;
+    height: 245px;
+    background-color:rgba(255, 255, 255, 0.712);
+    
+    margin:15px 10px 0px 20px;
+    box-sizing: border-box;
+
+}
+
+
+@media screen and (max-width:1258px){                   
+    .container ul li {
+        width: 40%;
+        margin: 60px;
+    }
+}
+
+
+p{
+    text-align: center;
+}
+
+
+button{
+    float:left;
+    width: 40%;
+    background-color: rgb(92, 182, 92);
+    border: lightgreen;
+    border-radius: 5px 5px;
+    font-size: 12px;
+
+}
+
+button.left{
+    position: relative;
+    left:25px;
+
+}
+button.btnleft{
+    margin-top: 20px;
+    position: relative;
+    left:25px;
+
+}
+
+button.top{
+    margin-top: 20px;
+    
+}
+
+img{
+     margin-left: 15px;
+     margin-top: 10px;
+}
+
+p.names{
+    text-align: left;
+    font-weight: bold;
+    margin: 0%;
+    padding: 0%;
+    font-size: 13px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
